@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FoodCorner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+
+    <img src="chef.jpg" alt="Chef">
+
+    <div class="banner-text">
+        <h1>🍴 FoodCorner</h1>
+
+        <p>Experience Delicious Food, Fresh Drinks & Authentic Curries</p>
+
+        <h2 id="cart">🛒 Cart (0)</h2>
+
+        <h2 id="total">💰 Total: ₹0</h2>
+    </div>
+
+</div>
+
+<div class="foods">
+
+    <div class="card">
+        <img src="biryani.jpg">
+        <h3>Chicken Biryani</h3>
+        <p class="price">₹249</p>
+        <button onclick="addToCart(249)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="fried-rice.jpg">
+        <h3>Fried Rice</h3>
+        <p class="price">₹179</p>
+        <button onclick="addToCart(179)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="masala-dosa.jpg">
+        <h3>Masala Dosa</h3>
+        <p class="price">₹89</p>
+        <button onclick="addToCart(89)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="idli-sambar.jpg">
+        <h3>Idli Sambar</h3>
+        <p class="price">₹59</p>
+        <button onclick="addToCart(59)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="mango-juice.jpg">
+        <h3>Mango Juice</h3>
+        <p class="price">₹60</p>
+        <button onclick="addToCart(60)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="watermelon-juice.jpg">
+        <h3>Watermelon Juice</h3>
+        <p class="price">₹50</p>
+        <button onclick="addToCart(50)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="lemon-juice.jpg">
+        <h3>Lemon Juice</h3>
+        <p class="price">₹30</p>
+        <button onclick="addToCart(30)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="chicken-curry.jpg">
+        <h3>Chicken Curry</h3>
+        <p class="price">₹199</p>
+        <button onclick="addToCart(199)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="Fish-curry.jpg">
+        <h3>Fish Curry</h3>
+        <p class="price">₹249</p>
+        <button onclick="addToCart(249)">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="prawn-curry.jpg">
+        <h3>Prawn Curry</h3>
+        <p class="price">₹299</p>
+        <button onclick="addToCart(299)">Order Now</button>
+    </div>
+
+    
+
+<div class="order-section">
+    <button onclick="placeOrder()">📦 Place Order</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
