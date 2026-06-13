@@ -22,7 +22,7 @@ async function placeOrder() {
 
     try {
 
-        const response = await fetch("http://localhost:5000/order", {
+        const response = await fetch("http://FoodCorner-backend-s47r.onrender.com/order", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
